@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+.banner {
+    background-color: beige;
+    padding: 15px
+}
+.menuatas {
+    overflow: auto;
+}
+.menu{
+    float: left;
+    width: 20%;
+}
+.menu-item {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.utama {
+    background-color: lightblue;
+    float: left;
+    width: 60%;
+    padding: 0px 15px;
+    overflow: hidden;
+}
+.utama img {
+    width: 100%;
+}
+.kotak-kanan {
+    background-color: lightgreen;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+}
+@media only screen and (max-width: 800px) {
+.main{
+    width: 80px;
+    padding: 0;
+}
+.kotak-kanan{
+    width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+.menu,
+.utama,
+.kotak-kanan {
+    width: 100%;
+    }
+}
